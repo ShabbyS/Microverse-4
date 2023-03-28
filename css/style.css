@@ -1,0 +1,25 @@
+#navbar{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    text-align: justify;
+}
+.main-section{
+    margin-left: 200px;
+    padding-left: 15px;
+}
+#navbar a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px 8px ;
+}
+@media screen and (min-width:760px){
+    #navbar {
+        padding-top: 15px;
+    }
+    #navbar a {
+        font-size: 18px;
+    }
+}
+
